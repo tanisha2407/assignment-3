@@ -1,0 +1,33 @@
+.myFlex
+    {
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+    }
+
+.myFlex >div{
+       width: 80px;
+     height: 80px;
+     margin: 20px;
+        
+}
+
+.myFlex1
+{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.myFlex1>div{
+    background-color: rgb(17, 243, 243);
+    width: 80px;
+     height: 80px;
+     margin: 20px;
+        
+}
